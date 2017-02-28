@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  TableView-FullScreenSectionView
 //
-//  Created by Veliyan Georgiev on 2/27/17.
+//  Created by Villy G on 2/27/17.
 //  Copyright © 2017 VillyG. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.navigationItem.title = "Gun details"
+        self.navigationItem.title = "Details"
         
     }
 
@@ -98,6 +98,8 @@ class ViewController: UITableViewController {
         
     }
     
+    
+    
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
      
         // We'll assume that there is only one section for now.
@@ -107,7 +109,7 @@ class ViewController: UITableViewController {
             let imageView: UIImageView = UIImageView()
             imageView.clipsToBounds = true
             imageView.contentMode = .scaleAspectFill
-            imageView.image =  UIImage(named: "gun")!
+            imageView.image =  UIImage(named: "map")!
             return imageView
         }
         
