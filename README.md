@@ -3,11 +3,11 @@ This project demonstrates how to have an image on top of a UITableView that take
 
 ###Portrait
   
-![Portrait](portrait.png?raw=true "Portrait")
+<img src="portrait.png" alt="Portrait" style="width: 300px;"/>
 
 ###Landscape
  
-![Landscape](landscape.png?raw=true "Landscape")
+<img src="landscape.png" alt="Portrait" style="width: 500px;"/>
 
 
 [Read the blog post here](http://villyg.com/2017/02/27/Adding-image-on-top-of-UITableView/)
